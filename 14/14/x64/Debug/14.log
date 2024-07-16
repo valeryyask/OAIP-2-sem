@@ -1,0 +1,29 @@
+﻿Сборка начата 31.05.2024 13:46:12.
+Уровень детализации журнала: Normal.     1>Проект "D:\d\уник\2 сем\оаип\14\14\14.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "x64\Debug\14.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\14.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\14.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt 14.cpp
+         14.cpp
+     1>D:\d\уник\2 сем\оаип\14\14\14.cpp(138,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\d\уник\2 сем\оаип\14\14\x64\Debug\14.exe" /INCREMENTAL /ILK:"x64\Debug\14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\d\уник\2 сем\оаип\14\14\x64\Debug\14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\d\уник\2 сем\оаип\14\14\x64\Debug\14.lib" /MACHINE:X64 x64\Debug\14.obj
+         14.vcxproj -> D:\d\уник\2 сем\оаип\14\14\x64\Debug\14.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\14.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\14.tlog\14.lastbuildstate".
+     1>Сборка проекта "D:\d\уник\2 сем\оаип\14\14\14.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\d\уник\2 сем\оаип\14\14\14.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\d\уник\2 сем\оаип\14\14\14.cpp(138,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:03.98
